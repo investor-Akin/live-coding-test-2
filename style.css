@@ -1,0 +1,228 @@
+
+.community-section{
+    width: 100%;
+    height: 60vh;
+    background-color: #0086db;
+    margin-top: 20px;
+    /* background-image: url(images/pattern-bg.png); */
+    background-position:contain;
+    background-repeat: no-repeat;
+    /* padding: 20px; */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 6%;
+    margin-bottom: 60px;
+
+}
+
+.community{
+    
+}
+
+.community-text button{
+ padding: 10px;
+ border-radius: 20px;
+ border: none;
+ /* color: white; */
+}
+
+.community-text{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    text-align: start;
+}
+
+.community-text-2{
+    display: flex;
+    margin-top: 50px;
+    gap: 12px;
+    justify-content: space-between;
+    color: white;
+}
+
+/* Featured On styling */
+.Featured{
+    width: 100%;
+    height: 28vh;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.Featured-on{
+    padding-left:8%;
+    padding-right:8%;
+}
+
+.feature-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/*  Benefits of Joining SLA styling*/
+.benefits{
+    padding-left:8%;
+    padding-right:8%;
+}
+
+
+.beneift{
+    width: 100%;
+    /* background-color: red; */
+    height: 50vh;
+    padding: 10px;
+}
+
+.h-4{
+    font-size: 16px;
+    padding: 10px;
+    width: 15%;
+    background-color: #bbe7ff;
+    border-radius: 20px;
+}
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-4-8{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: #0087db;
+    color: white;
+}
+
+.box{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.boxes{
+    width: 30%;
+    height: 25vh;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.boxx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* SLA Newsletters styling */
+.SLA{
+    padding-left: 20%;
+    padding-right: 20%;
+    /* border: 2px solid gray; */
+    width: 100%;
+    height: auto;
+}
+
+.sla{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 70px;
+}
+
+.la{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+/* Responsive adjustments for small screens */
+@media (max-width: 480px) {
+    .community-section {
+        height: 35vh;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 4%;
+    }
+
+    
+    .Featured {
+        height: 16vh;
+        padding: 10px;
+    }
+
+    .boxes {
+        width: 100%;
+        height: 14vh;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .sla {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .SLA {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .community-text {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .community-text-2 {
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 20px;
+    }
+
+    .beneift {
+        height: auto;
+        padding: 5px;
+    }
+    .section-1 {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    .section-1 h1 {
+        font-size: 20px;
+    }
+    .box {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .boxes {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        padding: 12px;
+    }
+    .boxx {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .h-4 {
+        width: 100%;
+        font-size: 15px;
+        padding: 8px;
+        text-align: center;
+    }
+    .h-4-8 {
+        width: 100%;
+        font-size: 15px;
+        padding: 8px;
+    }
+}
