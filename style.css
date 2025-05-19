@@ -61,7 +61,7 @@
     justify-content: space-between;
     margin-top: 30px;
     gap: 30px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 /*  Benefits of Joining SLA styling*/
@@ -146,18 +146,32 @@ align-items: center;
 
 
 /* Responsive adjustments for small screens */
-@media (max-width: 480px) {
+@media  screen and (max-width: 480px) {
     .community-section {
-        height: 35vh;
+        height: 100vh;
         padding-left: 3%;
         padding-right: 3%;
         padding-top: 4%;
     }
 
+    .community-text-2{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
     
     .Featured {
-        height: 16vh;
+        height: auto;
         padding: 10px;
+    }
+
+    .feature-img{
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        gap: 20px;
     }
 
     .boxes {
@@ -165,6 +179,16 @@ align-items: center;
         height: 14vh;
         padding: 10px;
         margin-bottom: 10px;
+    
+    }
+
+    .ji{
+        width: 100%;
+    }
+
+    .la{
+        display: flex;
+        justify-content: center;
     }
 
     .sla {
@@ -224,5 +248,113 @@ align-items: center;
         width: 100%;
         font-size: 15px;
         padding: 8px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive adjustments for small screens */
+@media  screen and (max-width: 480px) {
+    .community-section {
+        height: 100vh;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 4%;
+    }
+
+    .community-text-2{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
+    
+    .Featured {
+        height: auto;
+        padding: 10px;
+    }
+
+    .feature-img{
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .boxes {
+        width: 100%;
+        height: 14vh;
+        padding: 10px;
+        margin-bottom: 10px;
+    
+    }
+
+    .ji{
+        width: 100%;
+    }
+
+    .la{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sla {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .SLA {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .community-text {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .community-text-2 {
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 20px;
+    }
+
+    .beneift {
+        height: auto;
+        padding: 5px;
+    }
+    .section-1 {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    .section-1 h1 {
+        font-size: 20px;
+    }
+    .box {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .boxes {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        padding: 12px;
+    }
+    .boxx {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .h-4 {
+        width: 100%;
+        font-size: 15px;
+        padding: 8px;
+        text-align: center;
+    }
+    .h-4-8 {
+        width: 100%;
+        font-size: 15px;
+        padding: 8px;
+        margin-bottom: 20px;
     }
 }
